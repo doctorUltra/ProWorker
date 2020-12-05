@@ -1,38 +1,443 @@
-.App {
-  text-align: center;
-}
+.mainDiv{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  scroll-behavior: smooth;
+  max-width: 425px;
+  min-width: 370px;
+  margin: auto;
+  
 }
+.languageChoose{
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 60%;
+height: 5vh;
+margin-left: 20%;
+border: 1px solid #4285F4;
+margin-top: 2%;
+text-align: center;
+border-radius: 6px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.firstLang{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-right: 1px solid #4285F4;
+  
+}
+.firstLangHighlight{
+
+  border-right: 1px solid #4285F4;
+  background-color: #4285F4;
+  
+}
+.firstLang button{
+  
+  width: 96%;
+  margin-left: 2%;
+  height: 94%;
+  margin-top: 2%;
+  background-color: white;
+  border: none;
+  color: #4285F4;
+  
+  
+}
+button:focus {outline:0;}
+
+.firstLangHighlight button{
+  
+  width: 94%;
+  margin-right: 2%;
+  height: 94%;
+  margin-top: 2%;
+  background-color: #4285F4;
   color: white;
+  border: none;
+  
+}
+.secLang{
+
+  background-color: white;
+  border-radius: 6px;
+}
+.secLangHighlight {
+
+  background-color: #4285F4;
+}
+.secLang button{
+  
+  width: 100%;
+  margin-right: 6%;
+  height: 94%;
+  margin-top: 2%;
+  background-color: white;
+  color: #4285F4;
+  border: none;
+  border-radius: 6px;
+  
+}
+.secLangHighlight button{
+  
+  width: 94%;
+  margin-right: 6%;
+  height: 94%;
+  margin-top: 2%;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  
+}
+.profilePicDiv p{
+margin-top: 50%;
+  
+}
+.picDiv{
+
+  margin-top: 50%;
+  margin-left: 30px;
+  transform: translateY(-50%);
+  
+}
+.info{
+
+  display: grid;
+  height: 20vh;
+  grid-template-rows: 2fr 1fr 2fr;
 }
 
-.App-link {
-  color: #61dafb;
+.nameDiv p{
+
+font-size: 22px;
+margin-top: 5vh;  
+margin-bottom: 0;
+color: #314A6C;
+font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.jobDiv{
+
+  margin-left: 5%;
+  background-color: white;
+  width: fit-content;
+  margin-top: 2px;
+ 
+}
+.jobDiv p{
+  
+  font-size: 22px;
+  margin: 0;
+  border: 1px solid #0F9D58;
+  width: fit-content;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #0F9D58;
+  border-radius: 8px;
+  
+  
   }
-  to {
-    transform: rotate(360deg);
+.projectsCompletedDiv p{
+
+  margin: 0;
+  margin-top: 10px;
+  color: #0F9D58;
+  font-size: 14px;
+}
+
+.firstLayer{
+
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+.phoneAddrDiv{
+
+  width: 80%;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 18px;
+  color: #7B7B7B;
+}
+.phoneDiv{
+
+  border-right: 1px solid #C4C4C4;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+.phoneDiv a{
+  color: #7B7B7B;
+}
+.phoneDiv p{
+
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 4px;
+  font-size: 20px;
+  
+}
+.phoneDiv img{
+
+  margin-top: 50%;
+}
+.addressDiv{
+
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin-left: auto;
+
+}
+.addressDiv p{
+
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 8px;
+  font-size: 20px;
+
+}
+.addressDiv img{
+
+  margin-top: 44%;
+  
+}
+
+.downloadDiv img{
+
+  margin-top: 7vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.serviceskDivL1{
+
+  margin-top: 6%;
+  width: 96%;
+  margin-left: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.serviceskDivL2{
+
+  
+  width: 64%;
+  margin-left: 18%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.microJob p{
+
+  text-align: center;
+  margin: 0;
+  border: 1px solid rgba(66, 133, 244, 0.2);
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: rgba(66, 133, 244, 0.9);
+  border-radius: 8px;
+  background-color: rgba(66, 133, 244, 0.06);
+  font-size: 20px;
+}
+.microJob{
+
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: white;
+    
+    margin-top: 2px;
+   
+}
+.diffLine{
+
+  
+  border: .2px solid gray;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: 10%;
+}
+.wappButtonDiv{
+
+  background-color: white;
+  height: 9vh;
+  
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  border: thin solid #F4F4F4;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 12px 0px;
+}
+.wappButton{
+
+  height: 7vh;
+  background-color: #0F9D58;
+  color: white;
+  border: none;
+  width: 90%;
+  max-width: 400px;
+  padding-top:6px; 
+  padding-bottom: 6px;
+  font-size: 24px;
+  border-radius: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  bottom: 6px;
+  z-index: 10;
+}
+.wappButton img{
+
+  margin-left: 8px;
+}
+.portfolioDiv{
+
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 6px;
+  margin-bottom: 12vh;
+}
+
+.create_cta{
+
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.CreateCardBanner{
+
+  height: 16vh;
+  width: 96%;
+  margin-left: 2%;
+  border-radius: 7px;
+  background-color: #191F2D;
+  
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 12px 0px;
+}
+
+.createCardFirstLayer{
+
+  display: grid;
+  width: 80%;
+  margin-left: 10%;
+  grid-template-columns: 18% 82%;
+  color: white;
+  padding-top: 2vh;
+  
+}
+.createCardFirstLayer p{
+
+  margin-top: 1vh !important;
+
+}
+.CreateCardBanner button{
+
+  background-color: #14DF7D;
+  color: #191F2D;
+  border: none;
+  border: none;
+  border-radius: 4px;
+  width: 94%;
+  height: 5.6vh;
+  margin-left: 3%;
+  margin-top: .4vh;
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+
+
+.laoderDiv{
+
+  position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: -webkit-linear-gradient(#53bf79, #21c1b3);
+  background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.laoderDiv h2{
+
+  position: absolute;
+  width: max-content;
+   top: 200%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   
+    font-size: 48px;
+    background: -webkit-linear-gradient(#53bf79, #21c1b3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+@media screen and (min-width: 480px) {
+  .mainDiv {
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: thin solid #F4F4F4;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
+    
   }
+  .landingPage{
+
+    border: thin solid #F4F4F4;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 12px 0px;
+
+  }
+  .wappButton{
+
+    bottom: 5%;
+  }
+}
+
+.hand {
+
+  width: max-content;
+  margin: auto;
+  margin-top: 10px;
+}
+.landingPage {
+
+  display: grid;
+  max-width: 425px;
+  min-width: 370px;
+  margin: auto;
+  grid-template-rows: 18vh 22vh 38vh 7vh 15vh;
+}
+.landingTitle {
+  width: 96%;
+  margin-left: 2%;
+  text-align: center;
+  
+}
+.landingTitle h3{
+
+  color: #21c1b3;
+  
+}
+.landingTitle h1{
+
+  color: #F52870;
+  font-style: italic;
+  /* text-decoration: underline; */
+  
+}
+.logoPic {
+
+  margin: auto;
+}
+.exampleCard{
+
+  width: 96%;
+  margin-left: 2%;
+  border: thin solid #c4c4c4;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px 0px;
 }

@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "pro-worker-india",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
